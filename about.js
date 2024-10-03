@@ -15,6 +15,12 @@ function stop() {
 
 function reset(){
     timer= false;
+    counter = 0;  
+    second = 0;    
+    mintue = 0;    
+    hour = 0;
+
+
      document.getElementById("count").innerHTML="00"  
      document.getElementById("sec").innerHTML="00"
      document.getElementById("hr").innerHTML="00"
